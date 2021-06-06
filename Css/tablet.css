@@ -1,0 +1,10 @@
+.container #navbar h1 {
+  font-size: 1.4rem;
+}
+.container #navbar ul {
+  display: none;
+}
+.container #navbar {
+  align-items: center;
+  justify-content: center;
+}

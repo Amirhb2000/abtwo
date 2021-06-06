@@ -1,0 +1,59 @@
+/* Navbar ------------------------------- */
+.container #navbar h1 {
+  font-size: 1.4rem;
+}
+.container #navbar ul a {
+  font-size: 0.8rem;
+}
+
+/* Section: Header ------------------------------- */
+#header .container img {
+  display: none;
+}
+#header .container .text {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+#header .container .text a {
+  margin: 0 0 0 0;
+}
+#header .container {
+  text-align: center;
+  display: block;
+  justify-content: center;
+}
+
+/* Section: Skills ------------------------------- */
+#skills .container h1 {
+  font-size: 1.5rem;
+}
+
+/* Section: Portfolio ------------------------------- */
+#portfolio .container h1 {
+  font-size: 1.5rem;
+}
+
+/* Section: Social media ------------------------------- */
+#social-media .container h1 {
+  font-size: 1rem;
+}
+#social-media .container ul li {
+  font-size: 2rem;
+}
+
+/* Section: Contact me ------------------------------- */
+#contactme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contactme .container .text p {
+  display: none;
+}
+#contactme .container .text h1 {
+  text-align: center;
+}
+#contactme .container {
+  height: 60rem;
+}

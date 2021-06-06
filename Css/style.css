@@ -1,0 +1,385 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1080px;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Navbar ------------------------------ */
+.container #navbar {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 10px 0;
+  top: 0;
+}
+.container #navbar h1 {
+  font-size: 1.8rem;
+  font-family: great-vibes, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 0.25rem;
+}
+.container #navbar h1 a {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+}
+.container #navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 0.25rem;
+}
+.container #navbar #icon {
+  display: none;
+}
+.container #navbar #icon i {
+  display: flex;
+  font-size: 1.2rem;
+  text-align: center;
+  align-items: center;
+}
+.container #navbar ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  font-family: anonymous-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.checkbtn {
+  display: none;
+  font-size: 30px;
+  float: right;
+  cursor: pointer;
+}
+#check {
+  display: none;
+}
+
+/* Section: Header ------------------------------ */
+#header {
+  height: 20rem;
+}
+#header .container {
+  height: 100%;
+  background-color: black;
+  display: block;
+  padding: 1rem;
+}
+#header .container .text {
+  width: 50%;
+  height: 100%;
+  display: block;
+  float: left;
+  color: #ffffff;
+  font-family: anonymous-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+#header .container .text h1 {
+  margin: 1.5rem 0;
+}
+#header .container .text p {
+  font-size: 1.2rem;
+  margin-bottom: 5rem;
+}
+#header .container .text h1 span {
+  color: #00a8ff;
+}
+#header .container .text a {
+  text-decoration: none;
+  margin-left: 2rem;
+  background-color: #000;
+  box-shadow: 0px 0px 0.4rem rgba(255, 255, 255, 0.3);
+  border-radius: 0.2rem;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-family: anonymous-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+#header .container .text a:hover {
+  color: #000;
+  background-color: #ffffff;
+}
+#header .container img {
+  width: 11rem;
+  height: 11rem;
+  display: block;
+  float: right;
+  margin: 2rem;
+}
+
+/* Section: Skills ------------------------------ */
+#skills {
+  margin-top: 5rem;
+  display: flex;
+}
+#skills .container h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: anonymous-pro, monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+#skills .container .skills-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#skills .container .skills-box .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 18rem;
+  height: 15rem;
+  justify-content: space-between;
+  text-align: center;
+  border: none;
+  margin: 20px;
+  padding: 1rem;
+  box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+}
+
+#skills .container .skills-box .box h6 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  font-family: anonymous-pro, monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+#skills .container .skills-box .box p {
+  display: block;
+  font-size: 1rem;
+  height: 100%;
+  padding: 0.25rem;
+  font-family: anonymous-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+#skills .container .skills-box .box i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin: 0.75rem;
+  height: 100%;
+}
+#skills .container .skills-box .box a {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  font-family: anonymous-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+#skills .container .skills-box .box a:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+/* Section: Portfolio ------------------------------ */
+#portfolio {
+  display: block;
+  color: #ffffff;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+#portfolio .container {
+  padding: 0.25rem 0;
+  background-color: #000000;
+}
+#portfolio .container h1 {
+  text-align: center;
+  font-family: anonymous-pro, monospace;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 0.25rem;
+}
+#portfolio .container .portfolio-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+#portfolio .container .portfolio-box .box-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  border-radius: 5px;
+  width: 18rem;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 0px 1rem rgba(0, 0, 0, 0.5);
+  padding: 0 1.2rem;
+  font-family: anonymous-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+#portfolio .container .portfolio-box .box-2 h2 {
+  font-size: 1rem;
+  margin: 0.25rem 0;
+  font-family: anonymous-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+#portfolio .container .portfolio-box .box-2 img {
+  width: 100%;
+  height: 100%;
+  margin: 1rem 0;
+}
+#portfolio .container .portfolio-box .box-2 a {
+  color: #000000;
+  background-color: #ffffff;
+  width: 7rem;
+  height: 2rem;
+  font-size: 0.75rem;
+  text-align: center;
+  align-self: center;
+  border-radius: 0.1rem;
+  margin-bottom: 0.25rem;
+  padding: 0.5rem 0.5rem;
+  font-family: anonymous-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+#portfolio .container .portfolio-box .box-2 a:hover {
+  color: #ffffff;
+  background-color: #000000;
+  box-shadow: 0px 0px 0.4rem rgba(255, 255, 255, 0.5);
+  border-radius: 0.1rem;
+}
+
+/* Section: Social media ------------------------------ */
+#social-media {
+  text-align: center;
+  display: block;
+  margin: 5rem;
+}
+#social-media .container h1 {
+  margin: 2rem;
+  font-size: 2rem;
+  font-family: anonymous-pro, monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+#social-media .container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#social-media .container ul li {
+  list-style: none;
+  display: inline-block;
+}
+#social-media .container ul li {
+  font-size: 4rem;
+  margin: 2rem 2rem;
+  margin: auto;
+}
+#social-media .container ul li a {
+  color: #000;
+}
+#social-media .container ul li a .fa-instagram:hover {
+  color: #ea00ff;
+}
+#social-media .container ul li a .fa-linkedin:hover,
+#social-media .container ul li a .fa-telegram:hover {
+  color: #00a8ff;
+}
+#social-media .container ul li a .fa-dribbble:hover {
+  color: #ff0057;
+}
+#social-media .container ul li a .fa-youtube:hover {
+  color: #ff0011;
+}
+
+/* Section: Contact me ----------------------- */
+#contact-section .container {
+  background: url(../image/contactme.png) no-repeat center;
+  background-size: cover;
+  padding: 1rem 0;
+  display: block;
+}
+#contact-section .container h1 {
+  text-align: center;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  font-family: anonymous-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+#contact-section .container .contact-form {
+  max-width: 600px;
+  margin: auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+#contact-section .container .contact-form .contact-form-text {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: black;
+  padding: 1.2rem 2rem;
+  outline: none;
+  color: #ffffff;
+  transition: 0.5s;
+}
+#contact-section .container .contact-form .contact-form-text:focus {
+  box-shadow: 0 0 6px 0 #ffffff;
+}
+#contact-section .container .contact-form textarea {
+  resize: none;
+  height: 100%;
+}
+#contact-section .container .contact-form .contact-form-btn {
+  float: right;
+  border: none;
+  color: #ffffff;
+  padding: 12px 50px;
+  cursor: pointer;
+  margin: 0.5rem 0;
+  transition: 0.5s;
+  background-color: black;
+  box-shadow: 0 0 6px 0 #ffffff;
+  font-family: anonymous-pro, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+#contact-section .container .contact-form .contact-form-btn:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Footer --------------------------------- */
+footer h1 {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+/* ********************************************** */

@@ -1,0 +1,24 @@
+/* Section: Social media */
+#social-media .container h1 {
+  font-size: 0.8rem;
+}
+
+#social-media .container ul li {
+  font-size: 1rem;
+  margin: 0.3rem 0.3rem;
+}
+/* Section: Header */
+#header .container .text p {
+  font-size: 1rem;
+  margin-bottom: 5rem;
+}
+#header .container .text h1 {
+  font-size: 1.2rem;
+}
+#header .container .text a {
+  font-size: 1rem;
+}
+
+footer h1 {
+  font-size: 0.8rem;
+}
